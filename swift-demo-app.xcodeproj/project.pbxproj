@@ -43,9 +43,9 @@
 		9A67F9EC26ABF410003AD177 /* DemoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoApp.swift; sourceTree = "<group>"; };
 		9A67F9ED26ABF410003AD177 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		9A67F9EE26ABF413003AD177 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		9A67F9F326ABF413003AD177 /* Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Demo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9A67F9F326ABF413003AD177 /* swift-demo-app.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "swift-demo-app.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9A67F9F626ABF413003AD177 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		9A67F9FB26ABF413003AD177 /* Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Demo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9A67F9FB26ABF413003AD177 /* swift-demo-app.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "swift-demo-app.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9A67F9FD26ABF413003AD177 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9A67F9FE26ABF413003AD177 /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
 		9A67FA0326ABF413003AD177 /* Tests iOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests iOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -118,8 +118,8 @@
 		9A67F9F426ABF413003AD177 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				9A67F9F326ABF413003AD177 /* Demo.app */,
-				9A67F9FB26ABF413003AD177 /* Demo.app */,
+				9A67F9F326ABF413003AD177 /* swift-demo-app.app */,
+				9A67F9FB26ABF413003AD177 /* swift-demo-app.app */,
 				9A67FA0326ABF413003AD177 /* Tests iOS.xctest */,
 				9A67FA0E26ABF413003AD177 /* Tests macOS.xctest */,
 			);
@@ -164,9 +164,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		9A67F9F226ABF413003AD177 /* Demo (iOS) */ = {
+		9A67F9F226ABF413003AD177 /* swift-demo-app (iOS) */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 9A67FA1D26ABF413003AD177 /* Build configuration list for PBXNativeTarget "Demo (iOS)" */;
+			buildConfigurationList = 9A67FA1D26ABF413003AD177 /* Build configuration list for PBXNativeTarget "swift-demo-app (iOS)" */;
 			buildPhases = (
 				9A67F9EF26ABF413003AD177 /* Sources */,
 				9A67F9F026ABF413003AD177 /* Frameworks */,
@@ -176,14 +176,14 @@
 			);
 			dependencies = (
 			);
-			name = "Demo (iOS)";
+			name = "swift-demo-app (iOS)";
 			productName = "Demo (iOS)";
-			productReference = 9A67F9F326ABF413003AD177 /* Demo.app */;
+			productReference = 9A67F9F326ABF413003AD177 /* swift-demo-app.app */;
 			productType = "com.apple.product-type.application";
 		};
-		9A67F9FA26ABF413003AD177 /* Demo (macOS) */ = {
+		9A67F9FA26ABF413003AD177 /* swift-demo-app (macOS) */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 9A67FA2026ABF413003AD177 /* Build configuration list for PBXNativeTarget "Demo (macOS)" */;
+			buildConfigurationList = 9A67FA2026ABF413003AD177 /* Build configuration list for PBXNativeTarget "swift-demo-app (macOS)" */;
 			buildPhases = (
 				9A67F9F726ABF413003AD177 /* Sources */,
 				9A67F9F826ABF413003AD177 /* Frameworks */,
@@ -193,9 +193,9 @@
 			);
 			dependencies = (
 			);
-			name = "Demo (macOS)";
+			name = "swift-demo-app (macOS)";
 			productName = "Demo (macOS)";
-			productReference = 9A67F9FB26ABF413003AD177 /* Demo.app */;
+			productReference = 9A67F9FB26ABF413003AD177 /* swift-demo-app.app */;
 			productType = "com.apple.product-type.application";
 		};
 		9A67FA0226ABF413003AD177 /* Tests iOS */ = {
@@ -259,7 +259,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 9A67F9EA26ABF410003AD177 /* Build configuration list for PBXProject "Demo" */;
+			buildConfigurationList = 9A67F9EA26ABF410003AD177 /* Build configuration list for PBXProject "swift-demo-app" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -272,8 +272,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				9A67F9F226ABF413003AD177 /* Demo (iOS) */,
-				9A67F9FA26ABF413003AD177 /* Demo (macOS) */,
+				9A67F9F226ABF413003AD177 /* swift-demo-app (iOS) */,
+				9A67F9FA26ABF413003AD177 /* swift-demo-app (macOS) */,
 				9A67FA0226ABF413003AD177 /* Tests iOS */,
 				9A67FA0D26ABF413003AD177 /* Tests macOS */,
 			);
@@ -357,12 +357,12 @@
 /* Begin PBXTargetDependency section */
 		9A67FA0526ABF413003AD177 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 9A67F9F226ABF413003AD177 /* Demo (iOS) */;
+			target = 9A67F9F226ABF413003AD177 /* swift-demo-app (iOS) */;
 			targetProxy = 9A67FA0426ABF413003AD177 /* PBXContainerItemProxy */;
 		};
 		9A67FA1026ABF413003AD177 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 9A67F9FA26ABF413003AD177 /* Demo (macOS) */;
+			target = 9A67F9FA26ABF413003AD177 /* swift-demo-app (macOS) */;
 			targetProxy = 9A67FA0F26ABF413003AD177 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -495,7 +495,7 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = swiftapp.Demo;
-				PRODUCT_NAME = Demo;
+				PRODUCT_NAME = "swift-demo-app";
 				SDKROOT = iphoneos;
 				SUPPORTS_MACCATALYST = YES;
 				SWIFT_VERSION = 5.0;
@@ -519,7 +519,7 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = swiftapp.Demo;
-				PRODUCT_NAME = Demo;
+				PRODUCT_NAME = "swift-demo-app";
 				SDKROOT = iphoneos;
 				SUPPORTS_MACCATALYST = YES;
 				SWIFT_VERSION = 5.0;
@@ -546,7 +546,7 @@
 				);
 				MACOSX_DEPLOYMENT_TARGET = 11.0;
 				PRODUCT_BUNDLE_IDENTIFIER = swiftapp.Demo;
-				PRODUCT_NAME = Demo;
+				PRODUCT_NAME = "swift-demo-app";
 				SDKROOT = macosx;
 				SWIFT_VERSION = 5.0;
 			};
@@ -570,7 +570,7 @@
 				);
 				MACOSX_DEPLOYMENT_TARGET = 11.0;
 				PRODUCT_BUNDLE_IDENTIFIER = swiftapp.Demo;
-				PRODUCT_NAME = Demo;
+				PRODUCT_NAME = "swift-demo-app";
 				SDKROOT = macosx;
 				SWIFT_VERSION = 5.0;
 			};
@@ -668,7 +668,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		9A67F9EA26ABF410003AD177 /* Build configuration list for PBXProject "Demo" */ = {
+		9A67F9EA26ABF410003AD177 /* Build configuration list for PBXProject "swift-demo-app" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				9A67FA1B26ABF413003AD177 /* Debug */,
@@ -677,7 +677,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		9A67FA1D26ABF413003AD177 /* Build configuration list for PBXNativeTarget "Demo (iOS)" */ = {
+		9A67FA1D26ABF413003AD177 /* Build configuration list for PBXNativeTarget "swift-demo-app (iOS)" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				9A67FA1E26ABF413003AD177 /* Debug */,
@@ -686,7 +686,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		9A67FA2026ABF413003AD177 /* Build configuration list for PBXNativeTarget "Demo (macOS)" */ = {
+		9A67FA2026ABF413003AD177 /* Build configuration list for PBXNativeTarget "swift-demo-app (macOS)" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				9A67FA2126ABF413003AD177 /* Debug */,
